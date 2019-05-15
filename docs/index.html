@@ -7,8 +7,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
+    <link rel="icon" href="./logo.png">
+    <title>Homem de Ferro morre</title>
     <style>
         a{
             text-decoration: none;
@@ -23,14 +23,17 @@
     <div style="text-align: center;">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
-            <a class="navbar-brand" href="#">
-                <img src="logo.png" width="30" height="30" alt="">
-            </a>
+            <!--<a class="navbar-brand" href="#">-->
+                <!--<img src="logo.png" width="30" height="30" alt="">-->
+            <!--</a>-->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
                 <div class="navbar-nav ">
+                    <a class="nav-item nav-link" href="#">
+                        <img src="logo.png" width="30" height="30" alt="">
+                    </a>
                     <a class="nav-item nav-link" href="#">O que fazemos?</a>
                     <a class="nav-item nav-link" href="#">Quem Somos?</a>
                     <a class="nav-item nav-link " href="#">Fique em contato</a>
@@ -81,10 +84,10 @@
                         <form>
                             <div class="row">
                                 <div class="col">
-                                    <input type="text" class="form-control" placeholder="First name">
+                                    <input type="text" name="nome" class="form-control" placeholder="Nome">
                                 </div>
                                 <div class="col">
-                                    <input type="text" class="form-control" placeholder="Last name">
+                                    <input type="email" name="email" class="form-control" placeholder="E-mail">
                                 </div>
                                 <button type="submit" class="btn btn-primary">Sign in</button>
                             </div>
@@ -99,7 +102,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md">
-                        <img class="mb-2" src="/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="24" height="24">
+                        <img class="mb-2" src="logo.png" alt="" width="24" height="24">
                         <small class="d-block mb-3 text-muted">&copy; 2017-2019</small>
                     </div>
                     <div class="col-6 col-md">
