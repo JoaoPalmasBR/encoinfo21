@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <style>
+        a{
+            text-decoration: none;
+            color: initial;
+        }
+        a[href]{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <nav class="site-header sticky-top py-1 navbar-dark bg-dark" >
+        <div class="container d-flex flex-column flex-md-row justify-content-center ">
+            <a class="py-2" href="#">
+                <img src="logo.png" width="30" height="30" alt="">
+            </a>
+            &nbsp;&nbsp;&nbsp;
+            <a class="py-2 d-none d-md-inline-block" href="#">O que fazemos?</a>
+            &nbsp;&nbsp;&nbsp;
+            <a class="py-2 d-none d-md-inline-block" href="#">Quem Somos?</a>
+            &nbsp;&nbsp;&nbsp;
+            <a class="py-2 d-none d-md-inline-block" href="#">Fique em contato</a>
+            <!--<a class="py-2 d-none d-md-inline-block" href="#">Enterprise</a>-->
+            <!--<a class="py-2 d-none d-md-inline-block" href="#">Support</a>-->
+            <!--<a class="py-2 d-none d-md-inline-block" href="#">Pricing</a>-->
+            <!--<a class="py-2 d-none d-md-inline-block" href="#">Cart</a>-->
+        </div>
+    </nav>
+    <!--<nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center">-->
+        <!--<a class="navbar-brand" href="#">-->
+            <!--<img src="logo.png" width="30" height="30" alt="">-->
+        <!--</a>-->
+        <!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">-->
+            <!--<span class="navbar-toggler-icon"></span>-->
+        <!--</button>-->
+        <!--<div class="collapse navbar-collapse" id="navbarNavAltMarkup">-->
+            <!--<div class="navbar-nav ">-->
+                <!--<a class="nav-item nav-link" href="#">O que fazemos?</a>-->
+                <!--<a class="nav-item nav-link" href="#">Quem Somos?</a>-->
+                <!--<a class="nav-item nav-link " href="#">Fique em contato</a>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</nav>-->
+    <div class="container">
+        <div class="jumbotron" style="background-image: url('banner.jpg'); background-size: cover; margin-top: 0;margin-bottom: 0;" >
+            <img src="./banner.jpg" style="height: 400px; opacity: 0;" class="img-fluid" alt="Responsive image">
+        </div>
+
+        <div class="jumbotron" style="text-align: center; margin-top: 0;">
+            <h1 class="display-4">O que Fazemos?</h1>
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        </div>
+        <div class="jumbotron" style="background-color:white; text-align: center; margin-top: 0;margin-bottom: 0;">
+            <h1 class="display-4">Quem Somos?</h1>
+            <div class="card-deck">
+                <div class="card" style="width: 18rem;">
+                    <img src="./cap.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Cap Marvel</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./ferro.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Homem de Ferro</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./thanos.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">THanos</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron" style="text-align: center; margin-top: 0;">
+            <form style="width: 90%;">
+                <div class="form-row align-items-center">
+                    <div class="col-auto">
+                        <label class="sr-only" for="inlineFormInput">Name</label>
+                        <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Jane Doe">
+                    </div>
+                    <div class="col-auto">
+                        <div class="input-group mb-2">
+                            <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <footer class="pt-4 my-md-5 pt-md-5 border-top">
+            <div class="row">
+                <div class="col-12 col-md">
+                    <img class="mb-2" src="/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="24" height="24">
+                    <small class="d-block mb-3 text-muted">&copy; 2017-2019</small>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Features</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">Cool stuff</a></li>
+                        <li><a class="text-muted" href="#">Random feature</a></li>
+                        <li><a class="text-muted" href="#">Team feature</a></li>
+                        <li><a class="text-muted" href="#">Stuff for developers</a></li>
+                        <li><a class="text-muted" href="#">Another one</a></li>
+                        <li><a class="text-muted" href="#">Last time</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Resources</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">Resource</a></li>
+                        <li><a class="text-muted" href="#">Resource name</a></li>
+                        <li><a class="text-muted" href="#">Another resource</a></li>
+                        <li><a class="text-muted" href="#">Final resource</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>About</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">Team</a></li>
+                        <li><a class="text-muted" href="#">Locations</a></li>
+                        <li><a class="text-muted" href="#">Privacy</a></li>
+                        <li><a class="text-muted" href="#">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
