@@ -4,4 +4,4 @@
 Pagina: [GitHub Pages](https://joaopalmasbr.github.io/encoinfo21/)
 
     Prototipo
-   ![alt text](./prototipo.png)
+   ![alt text](https://raw.githubusercontent.com/JoaoPalmasBR/encoinfo21/master/prototipo.png)
