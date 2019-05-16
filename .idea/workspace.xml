@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16a6ba0b-3235-423a-a1eb-d35baa3f83d1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="16a6ba0b-3235-423a-a1eb-d35baa3f83d1" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -149,7 +146,7 @@
       <workItem from="1557872303161" duration="508000" />
       <workItem from="1557873203602" duration="7325000" />
       <workItem from="1557887025490" duration="1606000" />
-      <workItem from="1557958347211" duration="5282000" />
+      <workItem from="1557958347211" duration="5516000" />
     </task>
     <task id="LOCAL-00001" summary="estrutura inicial html">
       <created>1557879538463</created>
@@ -214,11 +211,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557965237433</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update readme">
+      <created>1557965869756</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1557965869756</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14721000" />
+    <option name="totallyTimeSpent" value="14955000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -283,7 +287,8 @@
     <MESSAGE value="novo docs 2" />
     <MESSAGE value="add js fade in + docs novo 3" />
     <MESSAGE value="apagando comentarios docs" />
-    <option name="LAST_COMMIT_MESSAGE" value="apagando comentarios docs" />
+    <MESSAGE value="update readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="update readme" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/arena/img/arena-info.png">
